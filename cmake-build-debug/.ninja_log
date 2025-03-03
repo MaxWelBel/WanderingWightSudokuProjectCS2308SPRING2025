@@ -1,0 +1,7 @@
+# ninja log v6
+1	448	1740592425385598731	CMakeFiles/SudokuProject.dir/src/sudoku.cpp.o	7b0e86c1f12ec7d4
+863	894	1740592426248048297	SudokuProject	36abb65891d09066
+1	863	1740592425385754773	CMakeFiles/SudokuProject.dir/src/sudoku_io.cpp.o	cf22c796326ae8f0
+0	484	1740592425385361314	CMakeFiles/SudokuProject.dir/main.cpp.o	6b61f95b1bcca545
+1	506	1740592425386028898	CMakeFiles/SudokuProject.dir/src/utils.cpp.o	eabc53f72f86aaa9
+1	516	1740592425385884398	CMakeFiles/SudokuProject.dir/src/generator.cpp.o	ca0589f7c3a57f0a

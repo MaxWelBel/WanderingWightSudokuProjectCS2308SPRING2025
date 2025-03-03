@@ -1,0 +1,3 @@
+/Users/maxim/SudokuProject/cmake-build-debug/CMakeFiles/SudokuProject.dir
+/Users/maxim/SudokuProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maxim/SudokuProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
