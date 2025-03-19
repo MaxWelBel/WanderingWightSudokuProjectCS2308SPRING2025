@@ -63,23 +63,23 @@ You will find `TODO` comments in the following files:
    - **CPP File (`generator.cpp`)**
 
      - **`getShuffledVector()`**
-         - [ ] Implement logic to create a vector with numbers `1-9`.
-         - [ ] Shuffle the vector using `std::shuffle` and return it.
+         - [x] Implement logic to create a vector with numbers `1-9`.
+         - [x] Shuffle the vector using `std::shuffle` and return it.
 
      - **`fillBoardWithIndependentBox(int** BOARD)`**
-         - [ ] Fill the three diagonal 3x3 boxes (`(0,0)`, `(3,3)`, `(6,6)`) with unique shuffled numbers.
-         - [ ] Use `getShuffledVector()` to randomize the numbers in each box.
+         - [x] Fill the three diagonal 3x3 boxes (`(0,0)`, `(3,3)`, `(6,6)`) with unique shuffled numbers.
+         - [x] Use `getShuffledVector()` to randomize the numbers in each box.
 
      - **`deleteRandomItems(int** BOARD, const int& n)`**
-         - [ ] Randomly select and clear `n` unique cells (set them to `0`).
-         - [ ] Ensure no cell is cleared more than once and validate that `n` is between `1-81`.
+         - [x] Randomly select and clear `n` unique cells (set them to `0`).
+         - [x] Ensure no cell is cleared more than once and validate that `n` is between `1-81`.
 
      - **`generateBoard(const int& empty_boxes)`**
-         - [ ] Initialize an empty board using `getEmptyBoard()`.
-         - [ ] Fill diagonal boxes using `fillBoardWithIndependentBox()`.
-         - [ ] Solve the filled board using a solving function from `sudoku.h`.
-         - [ ] Delete `empty_boxes` cells using `deleteRandomItems()`.
-         - [ ] Return the final Sudoku board.
+         - [x] Initialize an empty board using `getEmptyBoard()`.
+         - [x] Fill diagonal boxes using `fillBoardWithIndependentBox()`.
+         - [x] Solve the filled board using a solving function from `sudoku.h`.
+         - [x] Delete `empty_boxes` cells using `deleteRandomItems()`.
+         - [x] Return the final Sudoku board.
 
 2. **`utils.cpp` / `utils.h`**
    - **Header File (`utils.h`)**
