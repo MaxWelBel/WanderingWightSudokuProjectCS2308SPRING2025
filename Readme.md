@@ -84,24 +84,24 @@ You will find `TODO` comments in the following files:
    - **CPP File (`utils.cpp`)**
 
      - **`deallocateBoard(int** BOARD, const int& rows)`**
-         - [ ] Implement memory deallocation for the 2D `BOARD`.
-         - [ ] Check if `BOARD` is `nullptr` before deallocating.
-         - [ ] Iterate through each row and deallocate using `delete[]`.
-         - [ ] Deallocate the array of row pointers using `delete[]`.
-         - [ ] Set `BOARD` to `nullptr` to avoid dangling pointers.
+         - [x] Implement memory deallocation for the 2D `BOARD`.
+         - [x] Check if `BOARD` is `nullptr` before deallocating.
+         - [x] Iterate through each row and deallocate using `delete[]`.
+         - [x] Deallocate the array of row pointers using `delete[]`.
+         - [x] Set `BOARD` to `nullptr` to avoid dangling pointers.
 
      - **`createFolder(const std::string& folderPath)`**
-         - ✅ Already implemented — no changes needed.
+         - [x] Already implemented — no changes needed.
 
      - **`initDataFolder()`**
-         - ✅ Already implemented — no changes needed.
+         - [x] Already implemented — no changes needed.
          - Creates the following folders if they don’t exist:
              - `data/`
              - `data/puzzles/`
              - `data/solutions/`
 
      - **`getFileName(const int& index, const string& destination, const string& prefix)`**
-         - ✅ Already implemented — no changes needed.
+         - [x] Already implemented — no changes needed.
          - Constructs a filename with leading zeros based on the `index` and appends `.txt`.
          - Example Output: `data/puzzles/0005_puzzle.txt`
 
