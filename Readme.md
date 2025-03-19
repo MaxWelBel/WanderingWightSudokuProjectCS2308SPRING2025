@@ -8,11 +8,6 @@
 - **Do NOT** seek full solutions or copy-paste answers without understanding them.  
 - If I suspect improper use, a **one-on-one session** will be scheduled, and if discrepancies are found, your project will be **disqualified**.
 
-**Repository Contribution Rules:**  
-- **DO NOT** push personal solutions or make changes to this repository.  
-- This repo is strictly for **class collaborations only**.  
-- Violating these rules may result in **academic penalties**.
-
 💡 **"The real danger is not that computers will begin to think like humans, but that humans will begin to think like computers."**  
 — **Sydney J. Harris**
 
