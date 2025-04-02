@@ -121,21 +121,21 @@ You will find `TODO` comments in the following files:
          - Solves the Sudoku board using a simple backtracking algorithm.
 
      - **`findNextCell(int** BOARD)`**
-         - [ ] Implement logic to find the next empty cell using the Minimum Remaining Value (MRV) heuristic.
-         - [ ] Iterate over the board and count valid options for each empty cell using `isValid()`.
-         - [ ] Return the cell with the fewest valid options (`row`, `col`, `options`).
-         - [ ] Implement early exit if a cell with only one valid option is found.
+         - [x] Implement logic to find the next empty cell using the Minimum Remaining Value (MRV) heuristic.
+         - [x] Iterate over the board and count valid options for each empty cell using `isValid()`.
+         - [x] Return the cell with the fewest valid options (`row`, `col`, `options`).
+         - [x] Implement early exit if a cell with only one valid option is found.
 
      - **`solveBoardEfficient(int** BOARD)`**
-         - [ ] Implement efficient Sudoku solving using backtracking combined with the MRV heuristic.
-         - [ ] Use `findNextCell()` to select the next cell with the fewest valid options.
-         - [ ] Apply recursive backtracking to solve the board.
-         - [ ] Implement proper backtracking by resetting cells to `0` when needed.
+         - [x] Implement efficient Sudoku solving using backtracking combined with the MRV heuristic.
+         - [x] Use `findNextCell()` to select the next cell with the fewest valid options.
+         - [x] Apply recursive backtracking to solve the board.
+         - [x] Implement proper backtracking by resetting cells to `0` when needed.
 
      - **`solve(int** board, const bool& efficient)`**
-         - [ ] Implement logic to choose between the basic and efficient solver.
-         - [ ] Call `solveBoardEfficient()` if `efficient == true`.
-         - [ ] Otherwise, use the basic `solveBoard()` function.
+         - [x] Implement logic to choose between the basic and efficient solver.
+         - [x] Call `solveBoardEfficient()` if `efficient == true`.
+         - [x] Otherwise, use the basic `solveBoard()` function.
 
 4. **`sudoku_io.cpp` / `sudoku_io.h`**
    - **Header File (`sudoku_io.h`)**
