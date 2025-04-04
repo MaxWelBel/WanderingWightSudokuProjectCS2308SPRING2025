@@ -159,22 +159,6 @@ vector<string> getAllSudokuInFolder(const string& folderPath){
 }
 
 void createAndSaveNPuzzles(const int& num_puzzles, const int& complexity_empty_boxes, const string& destination, const string& prefix){
-    /**
-     * TODO:
-     * - Identify where in this function dynamically allocated memory (e.g., Sudoku boards) should be deallocated.
-     * - Use the `deallocateBoard()` function to free memory when:
-     *   1. The board is no longer needed (e.g., after solving or processing).
-     *   2. Before reassigning a pointer to a new board to avoid memory leaks.
-     *   3. Before returning from the function to ensure all allocated memory is freed.
-     *
-     * Example:
-     *   deallocateBoard(BOARD);  // Free memory allocated for the board
-     *
-     * Hints:
-     * - Always deallocate after you're done using the board.
-     * - Be mindful of potential memory leaks if the board isn't deallocated properly.
-     * - Set the pointer to nullptr after deallocation to avoid dangling pointers.
-     */
     int total_success = 0;
     for(int i=0; i < num_puzzles; i++){
         int** BOARD = generateBoard(complexity_empty_boxes);
@@ -185,6 +169,8 @@ void createAndSaveNPuzzles(const int& num_puzzles, const int& complexity_empty_b
         }else{
             cout << "!! Failed to write(" << filename << ") "<< total_success << "of " << num_puzzles << endl;
         }
+        deallocateBoard(BOARD);
+        BOARD = nullptr;
     }
     cout << total_success << " files written out of " << num_puzzles <<endl;
 }
@@ -226,6 +212,7 @@ void solveAndSaveNPuzzles(const int &num_puzzles, const string& source, const st
                 cout << "Puzzle Solved Written(over total): " << total_success_write << "/" << num_puzzles << endl;
             }
         }
+        deallocateBoard(sudoku);
     }
 }
 
@@ -302,7 +289,7 @@ void compareSudokuSolvers(const int& experiment_size, const int& empty_boxes) {
         } else {
             cerr << "solveBoardEfficient produced an invalid solution.\n";
         }
-
+        deallocateBoard(board1);
 
         // -------------------- Testing solveBoard --------------------
         auto startSolve = high_resolution_clock::now();
@@ -318,6 +305,7 @@ void compareSudokuSolvers(const int& experiment_size, const int& empty_boxes) {
         } else {
             cerr << "solveBoard produced an invalid solution.\n";
         }
+        deallocateBoard(board2);
 
         // -------------------- Progress Bar Update --------------------
         displayProgressBar(i, experiment_size);

@@ -135,7 +135,10 @@ bool solveBoardEfficient(int** BOARD)
 
             if (!solveBoardEfficient(BOARD)) {
                 BOARD[row][col] = 0;
+            } else {
+                return true;
             }
+
         } else if (i == 9) return false;
     }
 }
