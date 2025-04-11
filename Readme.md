@@ -52,8 +52,8 @@ You will find `TODO` comments in the following files:
 1. **`generator.cpp` / `generator.h`**
 
    - **Header File (`generator.h`)**
-       - [ ] Provide function prototypes for all functions in `generator.cpp`.
-       - [ ] Add appropriate docstrings for each function prototype based on examples in the code.
+       - [x] Provide function prototypes for all functions in `generator.cpp`.
+       - [x] Add appropriate docstrings for each function prototype based on examples in the code.
 
    - **CPP File (`generator.cpp`)**
 
@@ -78,8 +78,8 @@ You will find `TODO` comments in the following files:
 
 2. **`utils.cpp` / `utils.h`**
    - **Header File (`utils.h`)**
-     - [ ] Provide function prototypes for all functions in `utility.cpp`.
-     - [ ] Add appropriate docstrings for each function prototype based on examples in the code.
+     - [x] Provide function prototypes for all functions in `utility.cpp`.
+     - [x] Add appropriate docstrings for each function prototype based on examples in the code.
 
    - **CPP File (`utils.cpp`)**
 
