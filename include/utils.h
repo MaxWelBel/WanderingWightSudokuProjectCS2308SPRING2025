@@ -24,7 +24,14 @@
 using namespace std;
 
 /**
-  * TODO: Provide appropriate Documentation, see other examples provided within the projects
+  * @brief Dynamically deallocates a Sudoku board with given rows.
+  *
+  * Ensures the board is not already deleted.
+  * Deletes each row individually before deleting the
+  * double pointer to the board.
+  *
+  * @param BOARD 2D Sudoku Board.
+  * @param rows Number of rows to which to delete.
   */
 void deallocateBoard(int** BOARD, const int& rows = 9);
 
