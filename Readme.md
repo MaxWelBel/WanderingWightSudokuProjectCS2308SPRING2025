@@ -139,8 +139,8 @@ You will find `TODO` comments in the following files:
 
 4. **`sudoku_io.cpp` / `sudoku_io.h`**
    - **Header File (`sudoku_io.h`)**
-     - [ ] Provide function prototypes for all functions in `sudoku_io.cpp`.
-     - [ ] Add appropriate docstrings for each function prototype based on examples in the code.
+     - [x] Provide function prototypes for all functions in `sudoku_io.cpp`.
+     - [x] Add appropriate docstrings for each function prototype based on examples in the code.
 
    - **CPP File (`sudoku_io.cpp`)**
 
