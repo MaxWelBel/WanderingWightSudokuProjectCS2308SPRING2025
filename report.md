@@ -14,7 +14,7 @@ In the next paragraph, reflect on the **skills** and **knowledge** gained, like 
 **Collaborators Added:**
 - Instructor: `keshavsbhandari`
 - TA: `tousifulhaque`
-- Team Members: `MaxWelBel`
+- Team Members: `MaxWelBel` Maxwell Belcher (ihq15@txstate.edu)
 
 ---
 
