@@ -14,7 +14,7 @@ In the next paragraph, reflect on the **skills** and **knowledge** gained, like 
 **Collaborators Added:**
 - Instructor: `keshavsbhandari`
 - TA: `tousifulhaque`
-- Team Members: `MaxWelBel` Maxwell Belcher (ihq15@txstate.edu)
+- Team Members: `MaxWelBel` - Maxwell Belcher `A0532123` (ihq15@txstate.edu) 
 
 ---
 
@@ -545,12 +545,12 @@ This flow illustrates the general steps the program takes in non-DEBUG mode, fro
 
 5. **Did this project challenge and motivate you? We would appreciate your feedback on your experience. Feel free to share what you learned, what aspects of the project you found most engaging or challenging, and any suggestions you have for improving future projects. Your insights are valuable in helping us enhance future learning experiences.**
 
-   ...
+   For me, this project was a little challenging. Writing the code was really straight forward since the todo was thorough but writing the docstring and the program flowchart were very time-consuming and not something I'm used to when programming. 
 
 ---
 
 ## Closing Thoughts
 
-...
+I think if we were required to make the efficient solver actually efficient using a minimum heap I think the project would be more interesting and engaging implementing a very technical data structure. Other than that, I really enjoyed working on this project in my freetime.
 
 ---
